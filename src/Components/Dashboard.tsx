@@ -12,7 +12,8 @@ const Dashboard: FC<TitleProps> = ({ title, subtitle }) => {
 		<>
       <h1>{title}</h1>
       <h2>{subtitle}</h2>
-      <Customer name="new"/>
+      <Customer name="new" />
+      
     </>
   );
 };
