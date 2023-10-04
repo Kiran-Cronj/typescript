@@ -1,0 +1,104 @@
+
+  .normal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 6px;
+  padding-left: 35px;
+  padding: 10px;
+  margin-right: 0px;
+  cursor: pointer;
+}
+.active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-left: 5px solid #00d09c;
+  background-color: #00d09c;
+  border-radius: 0px 4px 4px 0px;
+  margin-right: 0px;
+  padding: 10px;
+  cursor: default;
+}
+.active:hover {
+  color: #ffffff;
+  background-color: #00d09c;
+}
+.normalFont {
+  color: #ffffff;
+  font-weight: 600 !important;
+  font-size: 15px !important;
+}
+
+.activeFont {
+  color: #ffffff;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+a :active {
+  text-decoration: none;
+  color: #00d09c;
+}
+
+.subnav__container {
+  background-color: #060229;
+
+  padding-left: 4.3rem;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.subnavActive {
+  color: red;
+}
+.subnavNormal {
+  color: black;
+}
+.sidenav.css-1gdj8jr-MuiGrid-root {
+  position: fixed;
+}
+.SidebarWrap {
+  padding: 45px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.UpgraadeButton {
+  display: flex;
+  justify-content: center;
+}
+.SidebarWrap a {
+  font: normal normal 600 15px/35px Gilroy-Regular;
+
+  padding: 30px 0px;
+}
+
+.SidebarLink div {
+  justify-content: center;
+  display: flex;
+  display: flex;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.sidebar__container {
+  background: #060229;
+  height: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+  /* justify-content: space-between !important; */
+}
+@media (max-width:768px) {
+  .sidebar__container {
+    display: none !important;
+  }
+}
