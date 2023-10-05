@@ -4,13 +4,19 @@ import Login from "./Components/Login/Login"
 
 import './App.css';
 import Dashboard from './Components/Dashboard';
+import Add from './Components/Add';
+import List from './Components/List';
+import Products from './Components/Products';
+import Cart from './Components/Cart';
 
 
 function App() {
   return (
     <div className="App">
-      <Dashboard title="new Project" />
-      <Login/>
+      <Add />
+      <List />
+      <Products />
+      <Cart />
     </div>
   );
 }
