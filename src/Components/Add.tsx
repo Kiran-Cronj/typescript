@@ -6,7 +6,7 @@ const Add = () => {
   const name = useRef<string>("");
   const dispatch = useAppDispatch();
   return (
-    <div className="border rounded-md p-2 shadow-md m-2">
+    <div className="border rounded p-2 m-2">
       <label htmlFor="">Person Name:</label>
       <input
         className="border rounded-md p-2 mx-2"
